@@ -18,5 +18,13 @@ jobs:
         with:
           node-version: 16
         
-      - name: ls
-        run: ls
+      - name: setup python
+        uses: actions/setup-python@v4
+        with:
+          pyton-version: 3.9
+          
+      - name: install
+        run: yarn install
+        
+      - name: build
+        run: yarn build
