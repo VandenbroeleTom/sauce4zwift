@@ -89,7 +89,7 @@
       }
     ],
     "win": {
-      "certificateFile": "../../Documents/sauce-code-signing-bundle.pfx"
+      "target": "portable"
     },
     "mac": {
       "target": {
